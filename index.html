@@ -18,32 +18,32 @@
         </div>
 
 
-        <form id="survey-form" action="" method="get">
+        <form id="survey-form" action="result.html" method="get">
             
             <div class="fbox">
 
                 <div class="box">
                     <label for="box-name">Name</label>
                     <br>
-                    <input type="text" name="box-name" id="box-name" placeholder="enter your name" required>
+                    <input type="text" name="Name" id="box-name" placeholder="enter your name" required>
                 </div>
     
                 <div class="box">
                    <label for="box-age">Age</label>
                     <br>
-                    <input type="number" name="box-age" id="box-age" placeholder="age" min="12" max="99" required> 
+                    <input type="number" name="Age" id="box-age" placeholder="age" min="12" max="99" required> 
                 </div>
     
                 <div class="box">
                     <label for="box-email">Email</label>
                     <br>
-                    <input type="email" name="box-email" id="box-email" placeholder="enter your Email" required>
+                    <input type="email" name="Email" id="box-email" placeholder="enter your Email" required>
                 </div>
                    
                 <div class="box">
-                   <label for="">Content Type</label>
+                   <label for="content">Content Type</label>
                     <br>
-                    <select name="content" id="content" required>
+                    <select name="Content-type" id="content" required>
                         <option value disabled selected>Select An Option</option>
                         <option value="Series">Series</option>
                         <option value="Netflix Originals">Netflix Originals</option>
@@ -56,48 +56,43 @@
             
 
             <div class="box">
-                <label for="">Movie Type</label>
+                <label for="Movie-type">Movie Type</label>
                 <br>
-                <input type="checkbox" name="type" id="c" >
+                <input type="checkbox" name="Movie-type" id="c" value="Comedy" >
                 <label for="c">Comedy</label>
                 <br>
-                <input type="checkbox" name="type" id="a">
+                <input type="checkbox" name="Movie-type" id="a" value="Action">
                 <label for="a">Action</label>
                 <br>
-                <input type="checkbox" name="type" id="r" >
+                <input type="checkbox" name="Movie-type" id="r" value="Romance">
                 <label for="r">Romance</label>
             </div>
             
             <div class="box" >
-                <label for="">Gender</label>
+                <label for="gender">Gender</label>
                 <br>
                 
-                <input type="radio" name="gender" id="m">
+                <input type="radio" name="Gender" id="m" value="Male">
                 <label for="m">Male</label>
                 <br>
-                <input type="radio" name="gender" id="f" >
+                <input type="radio" name="Gender" id="f" value="Female">
                 <label for="f">Female</label>
                 <br>
-                <input type="radio" name="gender" id="o">
+                <input type="radio" name="Gender" id="o" value="Other">
                 <label for="o">Other</label>
                 
             </div>
             
             <div class="box">
-                <label for="">Feedback</label> <br>
-                <textarea name="" id="feedback"  placeholder="any comment"></textarea>
+                <label for="feedback">Feedback</label> <br>
+                <textarea name="Feedback" id="feedback"  placeholder="any comment"></textarea>
             </div>
             
             <div id="box">
-                <button type="submit" >Send</button> 
+                <button type="submit">Send</button> 
             </div>
 
         </form>
-        
-
-
-
-
 
     </div>
 </body>

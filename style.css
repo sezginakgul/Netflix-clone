@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/background_image.jpg);
+  /* background-size: cover; */
+  /* position: center; */
+  /* background-repeat: no-repeat; */
+  color: white;
+  font-family: "Roboto";
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px 100px;
+}
+
+.title {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 15px;
+  padding: 15px 0;
+  font-size: xx-large;
+}
+
+.red {
+  color: red;
+}
+
+.discription {
+  text-align: center;
+  padding-bottom: 20px;
+  /* font-style: italic; */
+  font-size: x-large;
+}
+
+#survey-form {
+  background-color: black;
+  width: 400px;
+  margin: 0px auto ;
+  padding-top: 5px;
+}
+
+.box {
+  margin: 30px 40px 0;
+}
+
+#box-name,
+#box-age,
+#box-email,
+#content,
+#feedback {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+#feedback {
+    padding-left: 10px;
+    height: 100px; 
+}
+
+button {
+  color: white;
+  background-color: red;
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  margin-bottom: 16px;
+}
+
+#box {
+  text-align: center;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/netflix.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>NET<span class="red">FLIX</span></h1>
+        </div>
+        <div class="discription">
+            <p>Thank you for signing up to Netflix.Tell me more about yourself.</p>
+        </div>
+
+
+        <form id="survey-form" action="" method="get">
+            
+            <div class="fbox">
+
+                <div class="box">
+                    <label for="box-name">Name</label>
+                    <br>
+                    <input type="text" name="box-name" id="box-name" placeholder="enter your name" required>
+                </div>
+    
+                <div class="box">
+                   <label for="box-age">Age</label>
+                    <br>
+                    <input type="number" name="box-age" id="box-age" placeholder="age" min="12" max="99" required> 
+                </div>
+    
+                <div class="box">
+                    <label for="box-email">Email</label>
+                    <br>
+                    <input type="email" name="box-email" id="box-email" placeholder="enter your Email" required>
+                </div>
+                   
+                <div class="box">
+                   <label for="">Content Type</label>
+                    <br>
+                    <select name="content" id="content" required>
+                        <option value disabled selected>Select An Option</option>
+                        <option value="Series">Series</option>
+                        <option value="Netflix Originals">Netflix Originals</option>
+                        <option value="Comedies">Comedies</option>
+                        <option value="Romantic">Romantic</option>
+                        <option value="Documentaries">Documentaries</option>
+                    </select> 
+                </div>
+            </div>
+                
+                
+            
+
+            <div class="box">
+                <label for="">Movie Type</label>
+                <br>
+                <input type="checkbox" name="type" id="c" >
+                <label for="c">Comedy</label>
+                <br>
+                <input type="checkbox" name="type" id="a">
+                <label for="a">Action</label>
+                <br>
+                <input type="checkbox" name="type" id="r" >
+                <label for="r">Romance</label>
+            </div>
+            
+            <div class="box" >
+                <label for="">Gender</label>
+                <br>
+                
+                <input type="radio" name="gender" id="m">
+                <label for="m">Male</label>
+                <br>
+                <input type="radio" name="gender" id="f" >
+                <label for="f">Female</label>
+                <br>
+                <input type="radio" name="gender" id="o">
+                <label for="o">Other</label>
+                
+            </div>
+            
+            <div class="box">
+                <label for="">Feedback</label> <br>
+                <textarea name="" id="feedback"  placeholder="any comment"></textarea>
+            </div>
+            
+            <div id="box">
+                <button type="submit" >Send</button> 
+            </div>
+
+        </form>
+        
+
+
+
+
+
+    </div>
+</body>
+</html>

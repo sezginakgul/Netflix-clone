@@ -61,6 +61,7 @@ body {
 
 .box {
   margin: 30px 40px 0;
+  accent-color: red;
 }
 
 #box-name,

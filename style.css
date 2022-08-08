@@ -21,8 +21,9 @@ body {
 
 .container {
   background-color: rgba(0, 0, 0, 0.3);
-  margin: 30px 100px;
+  margin: auto;
   border-radius: 30px;
+  width: 1000px;
 }
 
 .title {
@@ -41,11 +42,13 @@ body {
 
 .discription {
   text-align: center;
-  padding-bottom: 20px;
+  padding: 0 15px 20px;
+  /* padding-bottom: 20px; */
   font-size: x-large;
   font-family: 'Sorts Mill Goudy', serif;
   font-weight: bolder;
   letter-spacing: 1px;
+  
 }
 
 #survey-form {

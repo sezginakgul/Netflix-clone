@@ -88,6 +88,7 @@ button {
   border-radius: 30px;
   margin-bottom: 16px;
   border: none;
+  cursor: pointer;
 }
 
 #box {

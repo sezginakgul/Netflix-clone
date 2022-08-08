@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +42,6 @@ body {
 .discription {
   text-align: center;
   padding-bottom: 20px;
-  /* font-style: italic; */
   font-size: x-large;
   font-family: 'Sorts Mill Goudy', serif;
   font-weight: bolder;

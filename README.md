@@ -1,4 +1,4 @@
-# Blue Car Rental Form
+# Netflix Clone
 
 ## Table of contents
 
@@ -20,11 +20,12 @@ Your company has recently started on a project that aims to conduct a survey to 
 
 ### Project Skeleton
 
+```
 netflix-clone (folder)
         |----index.html  
         |----style.css   
         |----result.html 
-
+```
 ### Screenshot
 
 <p align="center">
